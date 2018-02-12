@@ -1,0 +1,272 @@
+[
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "LGT",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "LGT",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "LGT",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "PTY",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "PTY",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "PTY",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "RN1",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "RN1",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "RN1",
+        "weather_value": 0
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "SKY",
+        "weather_value": 1
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "SKY",
+        "weather_value": 1
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "SKY",
+        "weather_value": 1
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "T1H",
+        "weather_value": -2.5
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "T1H",
+        "weather_value": -1.7
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "T1H",
+        "weather_value": -0.9
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "REH",
+        "weather_value": 20
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "REH",
+        "weather_value": 20
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "REH",
+        "weather_value": 20
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "UUU",
+        "weather_value": 4.9
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "UUU",
+        "weather_value": 4.8
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "UUU",
+        "weather_value": 4.8
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "VVV",
+        "weather_value": -2
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "VVV",
+        "weather_value": -2.4
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "VVV",
+        "weather_value": -2.8
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "VEC",
+        "weather_value": 294
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "VEC",
+        "weather_value": 298
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "VEC",
+        "weather_value": 301
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1300,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "WSD",
+        "weather_value": 5.3
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1400,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "WSD",
+        "weather_value": 5.4
+    },
+    {
+        "base_date": 20180205,
+        "base_time": 1230,
+        "forecast_date": 20180205,
+        "forecast_time": 1500,
+        "name": "대구광역시 동구 신암4동",
+        "weather": "WSD",
+        "weather_value": 5.6
+    }
+]
