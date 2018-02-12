@@ -1,0 +1,68 @@
+[
+    {
+        "ITT001": {
+            "address": "경북 경산시 조영동",
+            "age": "30",
+            "class_info": {
+                "attending_class": {
+                    "IB171106": {
+                        "c_close": "2018-09-05",
+                        "c_name": "IoT 빅데이터 실무반",
+                        "c_open": "2017-11-06",
+                        "c_tutor": "이현구"
+                    },
+                    "IB171108": {
+                        "c_close": "2018-09-07",
+                        "c_name": "IoT 빅데이터 실무반_2",
+                        "c_open": "2017-11-08",
+                        "c_tutor": "이현구_2"
+                    }
+                },
+                "p_registration": "0"
+            },
+            "name": "김상엽"
+        }
+    },
+    {
+        "ITT002": {
+            "address": "대구시 동구 신암동",
+            "age": "28",
+            "class_info": {
+                "attending_class": {
+                    "IB171110": {
+                        "c_close": "2018-09-09",
+                        "c_name": "IoT 빅데이터 실무반",
+                        "c_open": "2017-11-10",
+                        "c_tutor": "이현구"
+                    },
+                    "MK171212": {
+                        "c_close": "2018-12-11",
+                        "c_name": "아무거나듣자",
+                        "c_open": "2017-12-12",
+                        "c_tutor": "짱짱맨"
+                    }
+                },
+                "p_registration": "0"
+            },
+            "name": "김건홍"
+        }
+    },
+    {
+        "ITT003": {
+            "address": "킹경북 경신시 조영동",
+            "age": "킹30",
+            "class_info": {
+                "attending_class": {
+                    "sdf": {
+                        "c_close": "dfdf",
+                        "c_name": "asdf",
+                        "c_open": "dfdf",
+                        "c_tutor": "adfdf"
+                    }
+                },
+                "p_registration": "킹0"
+            },
+            "name": "킹상엽"
+        }
+    }
+]

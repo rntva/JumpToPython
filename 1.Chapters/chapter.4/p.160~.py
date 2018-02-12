@@ -1,0 +1,22 @@
+file1 = open("sample.txt", 'w')
+for x in range(1, 11) : file1.write("%d번째 줄입니다.\n" %x)
+file1.close()
+
+print("-----------------------------------------------------")
+
+file2 = open("sample.txt", 'r')
+file3 = open("copy.txt", 'w')
+file4 = open("copy_all.txt", 'w')
+x = file2.readline()
+file3.write(x)
+file3.write(file2.readline())
+# file2.seek(file2.readline())
+file2.readline()
+file3.write(file2.readline())
+file2.seek(3 * 2)
+file3.write(file2.readline())
+for x in file2.readlines() :
+    file4.write(x)
+file4.write('\n\n')
+file2.seek(0)
+file4.write(str(file2.readlines()))
