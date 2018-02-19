@@ -22,7 +22,7 @@ with open_workbook(input_file) as workbook :
     for row_index in range(1, workseeht.nrows) :
         row_list = []
         purchase_datetime = xldate_as_tuple(workseeht.cell_value(row_index, purchase_date_column_index), workbook.datemode)
-        purchase_date = date(*purchase_datetime[0:3]).strftime("%m/%d/%y")
+        purchase_date = date(*purchase_datetime[0:3]).strftime("%m/%d/%Y")
         if purchase_date in important_dates :
             for colum_index in range(workseeht.ncols) :
                 cell_value = workseeht.cell_value(row_index, colum_index)
@@ -30,7 +30,7 @@ with open_workbook(input_file) as workbook :
                 if cell_type == 3 :
                     row_list.append(purchase_date)
                     # date_cell = xldate_as_tuple(cell_value, workbook.datemode)
-                    # date_cell = date(*date_cell[0:3]).strftime("%m/%d/%y")
+                    # date_cell = date(*date_cell[0:3]).strftime("%m/%d/%Y")
                     # row_list.append(date_cell)
                 else : row_list.append(cell_value)
         if row_list : data.append(row_list)
