@@ -2,7 +2,7 @@
 import sys
 import csv
 import MySQLdb
-from datetime import date, datetime
+from datetime import datetime, date
 
 # CSV 입력 파일 경로와 파일명
 input_file = sys.argv[1]
@@ -20,7 +20,7 @@ for row in file_reader :
     for column_index in range(len(header)) :
         if column_index < 4 : data.append(str(row[column_index]).lstrip('$').replace(' ', '').strip())
         else :
-            a_date = datetime.date(datetime.strftime(str(row[column_index]), "%m/%d/%y"))
+            a_date = datetime.date(datetime.strptime(str(row[column_index]), "%m/%d/%y"))
             # %Y를 쓰면 2016으로, %y를 쓰면 16으로 저장
             a_date = a_date.strftime("%y-%m-%d")
             data.append(a_date)
