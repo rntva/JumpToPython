@@ -63,15 +63,15 @@ print(grouped.apply(get_stats).unstack())
 # print(churn.pivot_table(["total_charges"], index=["churn"], columns=["custserv_calls"]))
 # print(churn.pivot_table(["total_charges"], index=["custserv_calls"], columns=["churn"], aggfunc="mean", fill_value="NaN", margins=True))
 #
-# dependent_variable = churn["churn01"]
-# independent_variables = churn[["account_length", "custserv_calls", "total_charges"]]
-# independent_variables_with_constant = sm.add_constant(independent_variables, prepend=True)
-# logit_model = sm.Logit(dependent_variable, independent_variables_with_constant).fit()
+dependent_variable = churn["churn01"]
+independent_variables = churn[["account_length", "custserv_calls", "total_charges"]]
+independent_variables_with_constant = sm.add_constant(independent_variables, prepend=True)
+logit_model = sm.Logit(dependent_variable, independent_variables_with_constant).fit()
 
-# print(logit_model.summary())
-# print("\nQuantities you can extract from the result :\n%s" %dir(logit_model))
-# print("\nCoefficients :\n%s" %logit_model.params)
-# print("\nCoefficient Std Errors :\n%s" %logit_model.bse)
+print(logit_model.summary())
+print("\nQuantities you can extract from the result :\n%s" %dir(logit_model))
+print("\nCoefficients :\n%s" %logit_model.params)
+print("\nCoefficient Std Errors :\n%s" %logit_model.bse)
 #
 # def invers_logit(model_formula) :
 #     from math import exp
