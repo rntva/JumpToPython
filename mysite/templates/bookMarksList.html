@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>BookMarks List</title>
+</head>
+<body>
+<h2><a href="http://www.auction.co.kr" target="_blank"> auction </a> </h2>
+{% for BM in BML %}
+<li><a href="{{BM.url}}", target="_blank">{{BM}}</a></li>
+{% endfor %}
+</body>
+</html>

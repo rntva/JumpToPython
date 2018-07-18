@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Member List</title>
+</head>
+<body>
+그냥 출력
+<li>{{members.0}}</li>
+<li>{{members.1}}</li>
+<li>{{members.2}}</li>
+for문 사용
+{% for member in members %}
+{% if member.name != "Kim" %}
+<li>{{member}}</li>
+{% endif %}
+{% endfor %}
+</body>
+</html>
